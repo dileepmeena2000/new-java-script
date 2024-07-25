@@ -1,0 +1,44 @@
+<script>
+
+// var student = [
+// { name: 'ram',age : 15},
+// { name: 'karan',age : 13},
+// { name: 'rahul',age : 14},
+// { name: 'abc',age : 24},
+// ];
+
+// // document.write(student)
+// console.log(student);
+
+// for(a=0; a<student.length;a++){
+//     document.write(student[a].name+ "" + student[a].age + "<br>");
+// }
+//////////////////////////////////////////
+// var student=[
+//     {name: 'ram',age:15 },
+//     {name: 'dileep',age:35 },
+//     {name: 'rawat',age:53 },
+// ]
+// for ( a=0;a<student.length; a++){
+//     document.write(student[a].name+ "" + student[a].age + student[a].id + "<br>");
+// }
+
+
+var student=[
+{name: 'ram',age:15},
+{name: 'dileep',age:23},
+{name: 'rawat',age:33},
+{name: 'raj',age:44},
+{name:'atul',age:12},
+];
+
+// for(a=0; a<student.length; a++){
+// document.write(student[a].name+ "" + student[a].age+  "<br><br>" );
+// }
+
+student.forEach((name,age)=>{
+    document.write(  `${name} : ${age} <br>   `)
+})
+
+
+</script>
